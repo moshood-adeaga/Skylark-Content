@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAF60DE42077E35C00D7EA6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF60DE32077E35C00D7EA6A /* AppDelegate.swift */; };
+		BAF60DE62077E35C00D7EA6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF60DE52077E35C00D7EA6A /* ViewController.swift */; };
+		BAF60DE92077E35C00D7EA6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF60DE72077E35C00D7EA6A /* Main.storyboard */; };
+		BAF60DEC2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAF60DEA2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld */; };
+		BAF60DEE2077E35C00D7EA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF60DED2077E35C00D7EA6A /* Assets.xcassets */; };
+		BAF60DF12077E35C00D7EA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF60DEF2077E35C00D7EA6A /* LaunchScreen.storyboard */; };
+		BAF60DFC2077E35C00D7EA6A /* Skylark_Content1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF60DFB2077E35C00D7EA6A /* Skylark_Content1Tests.swift */; };
+		BAF60E072077E35C00D7EA6A /* Skylark_Content1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF60E062077E35C00D7EA6A /* Skylark_Content1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAF60DF82077E35C00D7EA6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF60DD82077E35C00D7EA6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF60DDF2077E35C00D7EA6A;
+			remoteInfo = "Skylark-Content1";
+		};
+		BAF60E032077E35C00D7EA6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF60DD82077E35C00D7EA6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF60DDF2077E35C00D7EA6A;
+			remoteInfo = "Skylark-Content1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAF60DE02077E35C00D7EA6A /* Skylark-Content1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skylark-Content1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF60DE32077E35C00D7EA6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAF60DE52077E35C00D7EA6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAF60DE82077E35C00D7EA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAF60DEB2077E35C00D7EA6A /* Skylark_Content1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skylark_Content1.xcdatamodel; sourceTree = "<group>"; };
+		BAF60DED2077E35C00D7EA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAF60DF02077E35C00D7EA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAF60DF22077E35C00D7EA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF60DF72077E35C00D7EA6A /* Skylark-Content1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skylark-Content1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF60DFB2077E35C00D7EA6A /* Skylark_Content1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skylark_Content1Tests.swift; sourceTree = "<group>"; };
+		BAF60DFD2077E35C00D7EA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF60E022077E35C00D7EA6A /* Skylark-Content1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skylark-Content1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF60E062077E35C00D7EA6A /* Skylark_Content1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skylark_Content1UITests.swift; sourceTree = "<group>"; };
+		BAF60E082077E35C00D7EA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAF60DDD2077E35C00D7EA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF60DF42077E35C00D7EA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF60DFF2077E35C00D7EA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAF60DD72077E35C00D7EA6A = {
+			isa = PBXGroup;
+			children = (
+				BAF60DE22077E35C00D7EA6A /* Skylark-Content1 */,
+				BAF60DFA2077E35C00D7EA6A /* Skylark-Content1Tests */,
+				BAF60E052077E35C00D7EA6A /* Skylark-Content1UITests */,
+				BAF60DE12077E35C00D7EA6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAF60DE12077E35C00D7EA6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAF60DE02077E35C00D7EA6A /* Skylark-Content1.app */,
+				BAF60DF72077E35C00D7EA6A /* Skylark-Content1Tests.xctest */,
+				BAF60E022077E35C00D7EA6A /* Skylark-Content1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAF60DE22077E35C00D7EA6A /* Skylark-Content1 */ = {
+			isa = PBXGroup;
+			children = (
+				BAF60DE32077E35C00D7EA6A /* AppDelegate.swift */,
+				BAF60DE52077E35C00D7EA6A /* ViewController.swift */,
+				BAF60DE72077E35C00D7EA6A /* Main.storyboard */,
+				BAF60DED2077E35C00D7EA6A /* Assets.xcassets */,
+				BAF60DEF2077E35C00D7EA6A /* LaunchScreen.storyboard */,
+				BAF60DF22077E35C00D7EA6A /* Info.plist */,
+				BAF60DEA2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld */,
+			);
+			path = "Skylark-Content1";
+			sourceTree = "<group>";
+		};
+		BAF60DFA2077E35C00D7EA6A /* Skylark-Content1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF60DFB2077E35C00D7EA6A /* Skylark_Content1Tests.swift */,
+				BAF60DFD2077E35C00D7EA6A /* Info.plist */,
+			);
+			path = "Skylark-Content1Tests";
+			sourceTree = "<group>";
+		};
+		BAF60E052077E35C00D7EA6A /* Skylark-Content1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF60E062077E35C00D7EA6A /* Skylark_Content1UITests.swift */,
+				BAF60E082077E35C00D7EA6A /* Info.plist */,
+			);
+			path = "Skylark-Content1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAF60DDF2077E35C00D7EA6A /* Skylark-Content1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF60E0B2077E35C00D7EA6A /* Build configuration list for PBXNativeTarget "Skylark-Content1" */;
+			buildPhases = (
+				BAF60DDC2077E35C00D7EA6A /* Sources */,
+				BAF60DDD2077E35C00D7EA6A /* Frameworks */,
+				BAF60DDE2077E35C00D7EA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skylark-Content1";
+			productName = "Skylark-Content1";
+			productReference = BAF60DE02077E35C00D7EA6A /* Skylark-Content1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAF60DF62077E35C00D7EA6A /* Skylark-Content1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF60E0E2077E35C00D7EA6A /* Build configuration list for PBXNativeTarget "Skylark-Content1Tests" */;
+			buildPhases = (
+				BAF60DF32077E35C00D7EA6A /* Sources */,
+				BAF60DF42077E35C00D7EA6A /* Frameworks */,
+				BAF60DF52077E35C00D7EA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF60DF92077E35C00D7EA6A /* PBXTargetDependency */,
+			);
+			name = "Skylark-Content1Tests";
+			productName = "Skylark-Content1Tests";
+			productReference = BAF60DF72077E35C00D7EA6A /* Skylark-Content1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAF60E012077E35C00D7EA6A /* Skylark-Content1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF60E112077E35C00D7EA6A /* Build configuration list for PBXNativeTarget "Skylark-Content1UITests" */;
+			buildPhases = (
+				BAF60DFE2077E35C00D7EA6A /* Sources */,
+				BAF60DFF2077E35C00D7EA6A /* Frameworks */,
+				BAF60E002077E35C00D7EA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF60E042077E35C00D7EA6A /* PBXTargetDependency */,
+			);
+			name = "Skylark-Content1UITests";
+			productName = "Skylark-Content1UITests";
+			productReference = BAF60E022077E35C00D7EA6A /* Skylark-Content1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAF60DD82077E35C00D7EA6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Moshood Adeaga";
+				TargetAttributes = {
+					BAF60DDF2077E35C00D7EA6A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BAF60DF62077E35C00D7EA6A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAF60DDF2077E35C00D7EA6A;
+					};
+					BAF60E012077E35C00D7EA6A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAF60DDF2077E35C00D7EA6A;
+					};
+				};
+			};
+			buildConfigurationList = BAF60DDB2077E35C00D7EA6A /* Build configuration list for PBXProject "Skylark-Content1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAF60DD72077E35C00D7EA6A;
+			productRefGroup = BAF60DE12077E35C00D7EA6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAF60DDF2077E35C00D7EA6A /* Skylark-Content1 */,
+				BAF60DF62077E35C00D7EA6A /* Skylark-Content1Tests */,
+				BAF60E012077E35C00D7EA6A /* Skylark-Content1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAF60DDE2077E35C00D7EA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF60DF12077E35C00D7EA6A /* LaunchScreen.storyboard in Resources */,
+				BAF60DEE2077E35C00D7EA6A /* Assets.xcassets in Resources */,
+				BAF60DE92077E35C00D7EA6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF60DF52077E35C00D7EA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF60E002077E35C00D7EA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF60DDC2077E35C00D7EA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF60DE62077E35C00D7EA6A /* ViewController.swift in Sources */,
+				BAF60DE42077E35C00D7EA6A /* AppDelegate.swift in Sources */,
+				BAF60DEC2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF60DF32077E35C00D7EA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF60DFC2077E35C00D7EA6A /* Skylark_Content1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF60DFE2077E35C00D7EA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF60E072077E35C00D7EA6A /* Skylark_Content1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAF60DF92077E35C00D7EA6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF60DDF2077E35C00D7EA6A /* Skylark-Content1 */;
+			targetProxy = BAF60DF82077E35C00D7EA6A /* PBXContainerItemProxy */;
+		};
+		BAF60E042077E35C00D7EA6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF60DDF2077E35C00D7EA6A /* Skylark-Content1 */;
+			targetProxy = BAF60E032077E35C00D7EA6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAF60DE72077E35C00D7EA6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF60DE82077E35C00D7EA6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAF60DEF2077E35C00D7EA6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF60DF02077E35C00D7EA6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAF60E092077E35C00D7EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAF60E0A2077E35C00D7EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAF60E0C2077E35C00D7EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZFD4Q5EMC6;
+				INFOPLIST_FILE = "Skylark-Content1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oblivion.Skylark-Content1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAF60E0D2077E35C00D7EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZFD4Q5EMC6;
+				INFOPLIST_FILE = "Skylark-Content1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oblivion.Skylark-Content1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAF60E0F2077E35C00D7EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZFD4Q5EMC6;
+				INFOPLIST_FILE = "Skylark-Content1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oblivion.Skylark-Content1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skylark-Content1.app/Skylark-Content1";
+			};
+			name = Debug;
+		};
+		BAF60E102077E35C00D7EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZFD4Q5EMC6;
+				INFOPLIST_FILE = "Skylark-Content1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oblivion.Skylark-Content1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skylark-Content1.app/Skylark-Content1";
+			};
+			name = Release;
+		};
+		BAF60E122077E35C00D7EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZFD4Q5EMC6;
+				INFOPLIST_FILE = "Skylark-Content1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oblivion.Skylark-Content1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Skylark-Content1";
+			};
+			name = Debug;
+		};
+		BAF60E132077E35C00D7EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZFD4Q5EMC6;
+				INFOPLIST_FILE = "Skylark-Content1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oblivion.Skylark-Content1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Skylark-Content1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAF60DDB2077E35C00D7EA6A /* Build configuration list for PBXProject "Skylark-Content1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF60E092077E35C00D7EA6A /* Debug */,
+				BAF60E0A2077E35C00D7EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF60E0B2077E35C00D7EA6A /* Build configuration list for PBXNativeTarget "Skylark-Content1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF60E0C2077E35C00D7EA6A /* Debug */,
+				BAF60E0D2077E35C00D7EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF60E0E2077E35C00D7EA6A /* Build configuration list for PBXNativeTarget "Skylark-Content1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF60E0F2077E35C00D7EA6A /* Debug */,
+				BAF60E102077E35C00D7EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF60E112077E35C00D7EA6A /* Build configuration list for PBXNativeTarget "Skylark-Content1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF60E122077E35C00D7EA6A /* Debug */,
+				BAF60E132077E35C00D7EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAF60DEA2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAF60DEB2077E35C00D7EA6A /* Skylark_Content1.xcdatamodel */,
+			);
+			currentVersion = BAF60DEB2077E35C00D7EA6A /* Skylark_Content1.xcdatamodel */;
+			path = Skylark_Content1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAF60DD82077E35C00D7EA6A /* Project object */;
+}
