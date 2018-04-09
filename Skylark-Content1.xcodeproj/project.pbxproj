@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA3CB12D207B65E10065EEF4 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3CB12B207B65E10065EEF4 /* itemCell.swift */; };
+		BA3CB12E207B65E10065EEF4 /* itemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3CB12C207B65E10065EEF4 /* itemCell.xib */; };
+		BAB98CE5207B5D6500E4E29C /* contentViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB98CE3207B5D6500E4E29C /* contentViewViewController.swift */; };
+		BAB98CE6207B5D6500E4E29C /* contentViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB98CE4207B5D6500E4E29C /* contentViewViewController.xib */; };
+		BAB98CE9207B5D9600E4E29C /* faVouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB98CE7207B5D9600E4E29C /* faVouriteView.swift */; };
+		BAB98CEA207B5D9600E4E29C /* faVouriteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB98CE8207B5D9600E4E29C /* faVouriteView.xib */; };
 		BAF60DE42077E35C00D7EA6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF60DE32077E35C00D7EA6A /* AppDelegate.swift */; };
-		BAF60DE62077E35C00D7EA6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF60DE52077E35C00D7EA6A /* ViewController.swift */; };
-		BAF60DE92077E35C00D7EA6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF60DE72077E35C00D7EA6A /* Main.storyboard */; };
 		BAF60DEC2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAF60DEA2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld */; };
 		BAF60DEE2077E35C00D7EA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF60DED2077E35C00D7EA6A /* Assets.xcassets */; };
 		BAF60DF12077E35C00D7EA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF60DEF2077E35C00D7EA6A /* LaunchScreen.storyboard */; };
@@ -35,10 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA3CB12B207B65E10065EEF4 /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		BA3CB12C207B65E10065EEF4 /* itemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemCell.xib; sourceTree = "<group>"; };
+		BAB98CE3207B5D6500E4E29C /* contentViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentViewViewController.swift; sourceTree = "<group>"; };
+		BAB98CE4207B5D6500E4E29C /* contentViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = contentViewViewController.xib; sourceTree = "<group>"; };
+		BAB98CE7207B5D9600E4E29C /* faVouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faVouriteView.swift; sourceTree = "<group>"; };
+		BAB98CE8207B5D9600E4E29C /* faVouriteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = faVouriteView.xib; sourceTree = "<group>"; };
 		BAF60DE02077E35C00D7EA6A /* Skylark-Content1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skylark-Content1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF60DE32077E35C00D7EA6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BAF60DE52077E35C00D7EA6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BAF60DE82077E35C00D7EA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAF60DEB2077E35C00D7EA6A /* Skylark_Content1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skylark_Content1.xcdatamodel; sourceTree = "<group>"; };
 		BAF60DED2077E35C00D7EA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAF60DF02077E35C00D7EA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				BAF60DE32077E35C00D7EA6A /* AppDelegate.swift */,
-				BAF60DE52077E35C00D7EA6A /* ViewController.swift */,
-				BAF60DE72077E35C00D7EA6A /* Main.storyboard */,
 				BAF60DED2077E35C00D7EA6A /* Assets.xcassets */,
 				BAF60DEF2077E35C00D7EA6A /* LaunchScreen.storyboard */,
 				BAF60DF22077E35C00D7EA6A /* Info.plist */,
 				BAF60DEA2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld */,
+				BAB98CE3207B5D6500E4E29C /* contentViewViewController.swift */,
+				BAB98CE4207B5D6500E4E29C /* contentViewViewController.xib */,
+				BAB98CE7207B5D9600E4E29C /* faVouriteView.swift */,
+				BAB98CE8207B5D9600E4E29C /* faVouriteView.xib */,
+				BA3CB12B207B65E10065EEF4 /* itemCell.swift */,
+				BA3CB12C207B65E10065EEF4 /* itemCell.xib */,
 			);
 			path = "Skylark-Content1";
 			sourceTree = "<group>";
@@ -236,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAF60DF12077E35C00D7EA6A /* LaunchScreen.storyboard in Resources */,
+				BAB98CE6207B5D6500E4E29C /* contentViewViewController.xib in Resources */,
+				BAB98CEA207B5D9600E4E29C /* faVouriteView.xib in Resources */,
+				BA3CB12E207B65E10065EEF4 /* itemCell.xib in Resources */,
 				BAF60DEE2077E35C00D7EA6A /* Assets.xcassets in Resources */,
-				BAF60DE92077E35C00D7EA6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF60DE62077E35C00D7EA6A /* ViewController.swift in Sources */,
 				BAF60DE42077E35C00D7EA6A /* AppDelegate.swift in Sources */,
+				BAB98CE5207B5D6500E4E29C /* contentViewViewController.swift in Sources */,
+				BAB98CE9207B5D9600E4E29C /* faVouriteView.swift in Sources */,
 				BAF60DEC2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld in Sources */,
+				BA3CB12D207B65E10065EEF4 /* itemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BAF60DE72077E35C00D7EA6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAF60DE82077E35C00D7EA6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BAF60DEF2077E35C00D7EA6A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

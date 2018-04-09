@@ -17,6 +17,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let contentView = contentViewViewController (nibName: "contentViewViewController", bundle: nil)
+        contentView.title = "CONTENTS"
+        
+        let favView = faVouriteView (nibName: "faVouriteView", bundle: nil)
+        favView.title = "FAVOURITE"
+        
+        let nav1 = UINavigationController(rootViewController: contentView as contentViewViewController)
+        let nav2 = UINavigationController(rootViewController: favView as faVouriteView)
+        
+        let tabVC = UITabBarController()
+        tabVC.viewControllers = [nav1, nav2]
+        tabVC.tabBar.items![0].image=UIImage(named: "content")?.withRenderingMode(.alwaysOriginal)
+        tabVC.tabBar.items![1].image=UIImage(named: "favourite")?.withRenderingMode(.alwaysOriginal)
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = tabVC
+        window?.makeKeyAndVisible()
+        
+        
+        
         return true
     }
 
