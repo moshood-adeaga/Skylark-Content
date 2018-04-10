@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23DD3BE44739CCB34E8624DF /* Pods_Skylark_Content1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DD528B7286B2310DE969A4 /* Pods_Skylark_Content1Tests.framework */; };
+		4D7EA3ABAA3D78960B736612 /* Pods_Skylark_Content1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234868C4F57E8B9453DE0E11 /* Pods_Skylark_Content1UITests.framework */; };
+		70FFD77C00ACE16AEB0686A2 /* Pods_Skylark_Content1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F752A412A3C798071E8C2C8 /* Pods_Skylark_Content1.framework */; };
 		BA3CB12D207B65E10065EEF4 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3CB12B207B65E10065EEF4 /* itemCell.swift */; };
 		BA3CB12E207B65E10065EEF4 /* itemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3CB12C207B65E10065EEF4 /* itemCell.xib */; };
+		BA5C2979207BEB9000D75B93 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5C297B207BEB9000D75B93 /* Alamofire.framework */; };
+		BA5C297A207BEB9000D75B93 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5C297C207BEB9000D75B93 /* AlamofireImage.framework */; };
+		BA5C297E207BECCB00D75B93 /* ProjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C297D207BECCB00D75B93 /* ProjectManager.swift */; };
+		BA5C2983207C015100D75B93 /* faVouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C2981207C015100D75B93 /* faVouriteView.swift */; };
+		BA5C2984207C015100D75B93 /* faVouriteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5C2982207C015100D75B93 /* faVouriteView.xib */; };
+		BA5C2987207C088700D75B93 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C2985207C088700D75B93 /* TableViewCell.swift */; };
+		BA5C2988207C088700D75B93 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5C2986207C088700D75B93 /* TableViewCell.xib */; };
+		BA5C298B207C0DCB00D75B93 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C2989207C0DCB00D75B93 /* detailViewController.swift */; };
+		BA5C298C207C0DCB00D75B93 /* detailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5C298A207C0DCB00D75B93 /* detailViewController.xib */; };
+		BA5C298F207C125400D75B93 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C298D207C125400D75B93 /* TableViewCell2.swift */; };
+		BA5C2990207C125400D75B93 /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5C298E207C125400D75B93 /* TableViewCell2.xib */; };
+		BA5C2993207C138800D75B93 /* TableViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C2991207C138800D75B93 /* TableViewCell3.swift */; };
+		BA5C2994207C138800D75B93 /* TableViewCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5C2992207C138800D75B93 /* TableViewCell3.xib */; };
 		BAB98CE5207B5D6500E4E29C /* contentViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB98CE3207B5D6500E4E29C /* contentViewViewController.swift */; };
 		BAB98CE6207B5D6500E4E29C /* contentViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB98CE4207B5D6500E4E29C /* contentViewViewController.xib */; };
-		BAB98CE9207B5D9600E4E29C /* faVouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB98CE7207B5D9600E4E29C /* faVouriteView.swift */; };
-		BAB98CEA207B5D9600E4E29C /* faVouriteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB98CE8207B5D9600E4E29C /* faVouriteView.xib */; };
 		BAF60DE42077E35C00D7EA6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF60DE32077E35C00D7EA6A /* AppDelegate.swift */; };
 		BAF60DEC2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAF60DEA2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld */; };
 		BAF60DEE2077E35C00D7EA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF60DED2077E35C00D7EA6A /* Assets.xcassets */; };
@@ -39,12 +53,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		234868C4F57E8B9453DE0E11 /* Pods_Skylark_Content1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skylark_Content1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		338F5728405A83F5B652CFE3 /* Pods-Skylark-Content1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skylark-Content1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skylark-Content1Tests/Pods-Skylark-Content1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		35D277937DA1A3D598AC2090 /* Pods-Skylark-Content1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skylark-Content1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skylark-Content1UITests/Pods-Skylark-Content1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F3067FA811E2CEC823A2BFA /* Pods-Skylark-Content1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skylark-Content1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skylark-Content1Tests/Pods-Skylark-Content1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5F752A412A3C798071E8C2C8 /* Pods_Skylark_Content1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skylark_Content1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F3E619F17A4EDD7999C7A8 /* Pods-Skylark-Content1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skylark-Content1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skylark-Content1/Pods-Skylark-Content1.release.xcconfig"; sourceTree = "<group>"; };
+		B46EBB22F88EC5B30CC405B0 /* Pods-Skylark-Content1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skylark-Content1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skylark-Content1UITests/Pods-Skylark-Content1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		BA3CB12B207B65E10065EEF4 /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
 		BA3CB12C207B65E10065EEF4 /* itemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemCell.xib; sourceTree = "<group>"; };
+		BA5C297B207BEB9000D75B93 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5C297C207BEB9000D75B93 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5C297D207BECCB00D75B93 /* ProjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManager.swift; sourceTree = "<group>"; };
+		BA5C2981207C015100D75B93 /* faVouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faVouriteView.swift; sourceTree = "<group>"; };
+		BA5C2982207C015100D75B93 /* faVouriteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = faVouriteView.xib; sourceTree = "<group>"; };
+		BA5C2985207C088700D75B93 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BA5C2986207C088700D75B93 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		BA5C2989207C0DCB00D75B93 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		BA5C298A207C0DCB00D75B93 /* detailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = detailViewController.xib; sourceTree = "<group>"; };
+		BA5C298D207C125400D75B93 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		BA5C298E207C125400D75B93 /* TableViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
+		BA5C2991207C138800D75B93 /* TableViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell3.swift; sourceTree = "<group>"; };
+		BA5C2992207C138800D75B93 /* TableViewCell3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell3.xib; sourceTree = "<group>"; };
 		BAB98CE3207B5D6500E4E29C /* contentViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentViewViewController.swift; sourceTree = "<group>"; };
 		BAB98CE4207B5D6500E4E29C /* contentViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = contentViewViewController.xib; sourceTree = "<group>"; };
-		BAB98CE7207B5D9600E4E29C /* faVouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faVouriteView.swift; sourceTree = "<group>"; };
-		BAB98CE8207B5D9600E4E29C /* faVouriteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = faVouriteView.xib; sourceTree = "<group>"; };
 		BAF60DE02077E35C00D7EA6A /* Skylark-Content1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skylark-Content1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF60DE32077E35C00D7EA6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF60DEB2077E35C00D7EA6A /* Skylark_Content1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skylark_Content1.xcdatamodel; sourceTree = "<group>"; };
@@ -57,6 +89,8 @@
 		BAF60E022077E35C00D7EA6A /* Skylark-Content1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skylark-Content1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF60E062077E35C00D7EA6A /* Skylark_Content1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skylark_Content1UITests.swift; sourceTree = "<group>"; };
 		BAF60E082077E35C00D7EA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DD528B7286B2310DE969A4 /* Pods_Skylark_Content1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skylark_Content1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98A515BCC4AE192CB996CF1 /* Pods-Skylark-Content1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skylark-Content1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skylark-Content1/Pods-Skylark-Content1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5C2979207BEB9000D75B93 /* Alamofire.framework in Frameworks */,
+				BA5C297A207BEB9000D75B93 /* AlamofireImage.framework in Frameworks */,
+				70FFD77C00ACE16AEB0686A2 /* Pods_Skylark_Content1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23DD3BE44739CCB34E8624DF /* Pods_Skylark_Content1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +116,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7EA3ABAA3D78960B736612 /* Pods_Skylark_Content1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CBE8F8877BC34CBDDF53192 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D98A515BCC4AE192CB996CF1 /* Pods-Skylark-Content1.debug.xcconfig */,
+				84F3E619F17A4EDD7999C7A8 /* Pods-Skylark-Content1.release.xcconfig */,
+				338F5728405A83F5B652CFE3 /* Pods-Skylark-Content1Tests.debug.xcconfig */,
+				4F3067FA811E2CEC823A2BFA /* Pods-Skylark-Content1Tests.release.xcconfig */,
+				35D277937DA1A3D598AC2090 /* Pods-Skylark-Content1UITests.debug.xcconfig */,
+				B46EBB22F88EC5B30CC405B0 /* Pods-Skylark-Content1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA5C2995207CCE9400D75B93 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				BA3CB12B207B65E10065EEF4 /* itemCell.swift */,
+				BA3CB12C207B65E10065EEF4 /* itemCell.xib */,
+				BA5C2985207C088700D75B93 /* TableViewCell.swift */,
+				BA5C2986207C088700D75B93 /* TableViewCell.xib */,
+				BA5C298D207C125400D75B93 /* TableViewCell2.swift */,
+				BA5C298E207C125400D75B93 /* TableViewCell2.xib */,
+				BA5C2991207C138800D75B93 /* TableViewCell3.swift */,
+				BA5C2992207C138800D75B93 /* TableViewCell3.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		BA5C2996207CCEC100D75B93 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				BAB98CE3207B5D6500E4E29C /* contentViewViewController.swift */,
+				BAB98CE4207B5D6500E4E29C /* contentViewViewController.xib */,
+				BA5C2989207C0DCB00D75B93 /* detailViewController.swift */,
+				BA5C298A207C0DCB00D75B93 /* detailViewController.xib */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		BA5C2997207CCEE600D75B93 /* FavouriteView */ = {
+			isa = PBXGroup;
+			children = (
+				BA5C2981207C015100D75B93 /* faVouriteView.swift */,
+				BA5C2982207C015100D75B93 /* faVouriteView.xib */,
+			);
+			path = FavouriteView;
+			sourceTree = "<group>";
+		};
 		BAF60DD72077E35C00D7EA6A = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +178,8 @@
 				BAF60DFA2077E35C00D7EA6A /* Skylark-Content1Tests */,
 				BAF60E052077E35C00D7EA6A /* Skylark-Content1UITests */,
 				BAF60DE12077E35C00D7EA6A /* Products */,
+				7CBE8F8877BC34CBDDF53192 /* Pods */,
+				F100F132011EE21C83E6F3DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,17 +196,15 @@
 		BAF60DE22077E35C00D7EA6A /* Skylark-Content1 */ = {
 			isa = PBXGroup;
 			children = (
+				BA5C2995207CCE9400D75B93 /* CustomCells */,
+				BA5C2996207CCEC100D75B93 /* ContentView */,
+				BA5C2997207CCEE600D75B93 /* FavouriteView */,
 				BAF60DE32077E35C00D7EA6A /* AppDelegate.swift */,
+				BA5C297D207BECCB00D75B93 /* ProjectManager.swift */,
 				BAF60DED2077E35C00D7EA6A /* Assets.xcassets */,
-				BAF60DEF2077E35C00D7EA6A /* LaunchScreen.storyboard */,
-				BAF60DF22077E35C00D7EA6A /* Info.plist */,
 				BAF60DEA2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld */,
-				BAB98CE3207B5D6500E4E29C /* contentViewViewController.swift */,
-				BAB98CE4207B5D6500E4E29C /* contentViewViewController.xib */,
-				BAB98CE7207B5D9600E4E29C /* faVouriteView.swift */,
-				BAB98CE8207B5D9600E4E29C /* faVouriteView.xib */,
-				BA3CB12B207B65E10065EEF4 /* itemCell.swift */,
-				BA3CB12C207B65E10065EEF4 /* itemCell.xib */,
+				BAF60DF22077E35C00D7EA6A /* Info.plist */,
+				BAF60DEF2077E35C00D7EA6A /* LaunchScreen.storyboard */,
 			);
 			path = "Skylark-Content1";
 			sourceTree = "<group>";
@@ -140,6 +227,18 @@
 			path = "Skylark-Content1UITests";
 			sourceTree = "<group>";
 		};
+		F100F132011EE21C83E6F3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA5C297B207BEB9000D75B93 /* Alamofire.framework */,
+				BA5C297C207BEB9000D75B93 /* AlamofireImage.framework */,
+				5F752A412A3C798071E8C2C8 /* Pods_Skylark_Content1.framework */,
+				D1DD528B7286B2310DE969A4 /* Pods_Skylark_Content1Tests.framework */,
+				234868C4F57E8B9453DE0E11 /* Pods_Skylark_Content1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF60E0B2077E35C00D7EA6A /* Build configuration list for PBXNativeTarget "Skylark-Content1" */;
 			buildPhases = (
+				6D5711E33079DA10E3B1AD4A /* [CP] Check Pods Manifest.lock */,
 				BAF60DDC2077E35C00D7EA6A /* Sources */,
 				BAF60DDD2077E35C00D7EA6A /* Frameworks */,
 				BAF60DDE2077E35C00D7EA6A /* Resources */,
+				EE244FE8A024047A196BF8C0 /* [CP] Embed Pods Frameworks */,
+				2D7C3B4CACCECFC12FA8107E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF60E0E2077E35C00D7EA6A /* Build configuration list for PBXNativeTarget "Skylark-Content1Tests" */;
 			buildPhases = (
+				B44830CDB4CDFCFBE53FC1A9 /* [CP] Check Pods Manifest.lock */,
 				BAF60DF32077E35C00D7EA6A /* Sources */,
 				BAF60DF42077E35C00D7EA6A /* Frameworks */,
 				BAF60DF52077E35C00D7EA6A /* Resources */,
+				A7F66001E0C5202393143C58 /* [CP] Embed Pods Frameworks */,
+				A367EA01E54FE6DD59060D29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF60E112077E35C00D7EA6A /* Build configuration list for PBXNativeTarget "Skylark-Content1UITests" */;
 			buildPhases = (
+				40E4AD82099EAB111D0F8BC4 /* [CP] Check Pods Manifest.lock */,
 				BAF60DFE2077E35C00D7EA6A /* Sources */,
 				BAF60DFF2077E35C00D7EA6A /* Frameworks */,
 				BAF60E002077E35C00D7EA6A /* Resources */,
+				93385998A44F09FA136C3B94 /* [CP] Embed Pods Frameworks */,
+				6E1DCC72A230E25D512A5454 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,7 +357,11 @@
 			files = (
 				BAF60DF12077E35C00D7EA6A /* LaunchScreen.storyboard in Resources */,
 				BAB98CE6207B5D6500E4E29C /* contentViewViewController.xib in Resources */,
-				BAB98CEA207B5D9600E4E29C /* faVouriteView.xib in Resources */,
+				BA5C2988207C088700D75B93 /* TableViewCell.xib in Resources */,
+				BA5C298C207C0DCB00D75B93 /* detailViewController.xib in Resources */,
+				BA5C2990207C125400D75B93 /* TableViewCell2.xib in Resources */,
+				BA5C2994207C138800D75B93 /* TableViewCell3.xib in Resources */,
+				BA5C2984207C015100D75B93 /* faVouriteView.xib in Resources */,
 				BA3CB12E207B65E10065EEF4 /* itemCell.xib in Resources */,
 				BAF60DEE2077E35C00D7EA6A /* Assets.xcassets in Resources */,
 			);
@@ -271,16 +383,173 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D7C3B4CACCECFC12FA8107E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skylark-Content1/Pods-Skylark-Content1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40E4AD82099EAB111D0F8BC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skylark-Content1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D5711E33079DA10E3B1AD4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skylark-Content1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1DCC72A230E25D512A5454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skylark-Content1UITests/Pods-Skylark-Content1UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93385998A44F09FA136C3B94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skylark-Content1UITests/Pods-Skylark-Content1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A367EA01E54FE6DD59060D29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skylark-Content1Tests/Pods-Skylark-Content1Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F66001E0C5202393143C58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skylark-Content1Tests/Pods-Skylark-Content1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B44830CDB4CDFCFBE53FC1A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skylark-Content1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE244FE8A024047A196BF8C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Skylark-Content1/Pods-Skylark-Content1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skylark-Content1/Pods-Skylark-Content1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAF60DDC2077E35C00D7EA6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5C298F207C125400D75B93 /* TableViewCell2.swift in Sources */,
 				BAF60DE42077E35C00D7EA6A /* AppDelegate.swift in Sources */,
+				BA5C297E207BECCB00D75B93 /* ProjectManager.swift in Sources */,
 				BAB98CE5207B5D6500E4E29C /* contentViewViewController.swift in Sources */,
-				BAB98CE9207B5D9600E4E29C /* faVouriteView.swift in Sources */,
 				BAF60DEC2077E35C00D7EA6A /* Skylark_Content1.xcdatamodeld in Sources */,
+				BA5C2983207C015100D75B93 /* faVouriteView.swift in Sources */,
+				BA5C2987207C088700D75B93 /* TableViewCell.swift in Sources */,
 				BA3CB12D207B65E10065EEF4 /* itemCell.swift in Sources */,
+				BA5C298B207C0DCB00D75B93 /* detailViewController.swift in Sources */,
+				BA5C2993207C138800D75B93 /* TableViewCell3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +705,7 @@
 		};
 		BAF60E0C2077E35C00D7EA6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98A515BCC4AE192CB996CF1 /* Pods-Skylark-Content1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +721,7 @@
 		};
 		BAF60E0D2077E35C00D7EA6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F3E619F17A4EDD7999C7A8 /* Pods-Skylark-Content1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +737,7 @@
 		};
 		BAF60E0F2077E35C00D7EA6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338F5728405A83F5B652CFE3 /* Pods-Skylark-Content1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +755,7 @@
 		};
 		BAF60E102077E35C00D7EA6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3067FA811E2CEC823A2BFA /* Pods-Skylark-Content1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +773,7 @@
 		};
 		BAF60E122077E35C00D7EA6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D277937DA1A3D598AC2090 /* Pods-Skylark-Content1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +790,7 @@
 		};
 		BAF60E132077E35C00D7EA6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46EBB22F88EC5B30CC405B0 /* Pods-Skylark-Content1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

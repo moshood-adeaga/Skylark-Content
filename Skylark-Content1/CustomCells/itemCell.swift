@@ -9,7 +9,7 @@
 import UIKit
 
 class itemCell: UICollectionViewCell {
-
+    
     @IBOutlet weak var itemImageView: UIImageView!
     @IBOutlet weak var itemTitle: UILabel!
     override func awakeFromNib() {
@@ -18,8 +18,9 @@ class itemCell: UICollectionViewCell {
         itemImageView?.layer.cornerRadius = 60
         itemImageView?.layer.borderWidth = 4
         itemImageView?.layer.borderColor = UIColor.black.cgColor
-
-
+        itemImageView.clipsToBounds = true
+        
+        
     }
     func fillItemCell (itemImage:UIImage, itemName:String)
     {
